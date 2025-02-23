@@ -4,6 +4,8 @@ A collab operation between 2 developers. (We locking in, PLEASE)
 ## How to use
 
 1. Clone the repository
+2. Change directory to the project you want to work on
+3. Start coding.
 
 ## Useful Git Commands for Collaboration
 

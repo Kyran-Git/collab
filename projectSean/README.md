@@ -16,3 +16,7 @@
 ### Notes
 
 - This project is using Vite and React.
+- The project is using ESLint for linting.
+- The project is using Prettier for formatting.
+- The project is made with the purpose of learning React and strengthening my skills with it.
+
