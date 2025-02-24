@@ -1,8 +1,14 @@
-# React + Vite
+# React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Necessary knowledge of React
 
-Currently, two official plugins are available:
+---
+### 1. Components
+- Components are the building blocks of React.
+- Components are reusable and can be used to build complex UI.
+- Components are like functions that return a React element.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+### 2. Props
+ - Props are used to pass data from one component to another.
+
