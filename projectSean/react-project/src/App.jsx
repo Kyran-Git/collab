@@ -1,11 +1,10 @@
 import './App.css'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 const App = () => {
 
-  const [hasLiked, setHasLiked] = useState(false);
-  // const [variable, variableSetter] = useState();
+  
 
   return (
     <div className='card-container'>
@@ -17,12 +16,16 @@ const App = () => {
 }
 
 const Card = ( { title } ) => {
+  const [hasLiked, setHasLiked] = useState(false);
+  
+  useEffect(() => {});
+
   return (
     <div className="card">
       <h1>{ title }</h1>
 
-      <button onClick={() => setHasLiked(true)}>
-        Like
+      <button onClick={() => setHasLiked(!hasLiked)}>
+        {hasLiked ? 'Liked' : 'Like'}
       </button>
       
     </div>

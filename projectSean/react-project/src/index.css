@@ -8,13 +8,23 @@
 body {
   padding: 40px;
   background-color: #151515;
-  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  font-family: "JetBrains Mono", Arial, sans-serif;
 }
 
 h1 {
   color: #f3f3f3;
   font-size: 48px;
   text-align: center;
+}
+
+button
+{
+  border: none;
+  font-size: 30px;
+  background-color: transparent;
+  width: 100%;
+  text-align: right;
+  cursor: pointer;
 }
 
 .card-container {
@@ -29,7 +39,7 @@ h1 {
 .card {
     border: 1px solid #333;
     padding: 20px;  
-    background-color: #718711;
+    background-color: darkcyan;
     border-radius: 10px;
     min-height: 100px;
     margin: 10px;
